@@ -1,0 +1,31 @@
+body {
+	background-color: slategray;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.card {
+	border: 2px solid black;
+	box-sizing: border-box;
+	box-shadow: inset;
+	padding: 10px;
+	margin: 10px;
+}
+
+.CardContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 2px solid bisque;
+}
+button {
+	margin: 10px;
+}
+.quantity {
+	color: paleturquoise;
+	font-weight: bold;
+}
